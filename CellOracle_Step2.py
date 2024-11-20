@@ -68,7 +68,7 @@ oracle.import_TF_data(TF_info_matrix=base_GRN)
 # Alternatively, if you saved the informmation as a dictionary, you can use the code below.
 # oracle.import_TF_data(TFdict=TFinfo_dictionary)
 
-#Wrote this beauty myself. I feel like GOD. Database was downloaded from: https://cdn.netbiol.org/tflink/download_files/TFLink_Mus_musculus_interactions_All_GMT_proteinName_v1.0.gmt
+Database was downloaded from: https://cdn.netbiol.org/tflink/download_files/TFLink_Mus_musculus_interactions_All_GMT_proteinName_v1.0.gmt
 TFlink = pd.read_csv("/Users/Javed/Documents/Humous/TFLink_Mus_musculus_interactions_All_GMT_proteinName_v1.0.csv")
 tffs = TFlink.TF
 TFlink.head(n=2)
